@@ -1,0 +1,26 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+/* Copyright (C) 2026 Bijstaan */
+/*
+ * The settings page, and only the settings page.
+ *
+ * Nothing here reaches a notification: a mail client never loads this file, and
+ * the styles that matter are written on the elements themselves by Shell and in
+ * the per-template <style> block by Css. This is the small amount of polish the
+ * configuration screen needs on top of Tabler.
+ */
+
+.glpimail-config iframe#glpimail-preview {
+    /* The preview is a white card on a light ground, and on GLPI's dark
+       palette an unpainted iframe would show the browser's default white
+       around it before the document inside has painted its own. */
+    color-scheme: light;
+    display: block;
+}
+
+.glpimail-config table.table td {
+    vertical-align: middle;
+}
+
+.glpimail-config .badge {
+    font-weight: 600;
+}
