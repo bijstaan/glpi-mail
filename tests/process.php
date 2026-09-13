@@ -18,7 +18,7 @@
  *
  * So: render each template, hand it invented data, and require that what comes
  * back has no `##` left in it and still parses. A surviving tag is a tag GLPI
- * would have printed to a customer.
+ * would have printed to an entity.
  *
  * Needs a booted GLPI, so it runs in the container rather than in CI:
  *

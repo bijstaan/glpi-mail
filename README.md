@@ -24,7 +24,7 @@ the HTML bodies in that file are stored **HTML-escaped** — `&lt;div&gt;` where
 `process()`, which substitutes tags and rewrites relative `href`s, then
 concatenates the result straight into `<body>`.
 
-A stock GLPI 11.0.8 therefore sends this to a customer:
+A stock GLPI 11.0.8 therefore sends this to an entity:
 
 ```
 &lt;!-- description{ color: inherit; background: #ebebeb; … } --&gt;
@@ -316,7 +316,7 @@ tag whose case got mangled.
 
 `process.php` puts every body through GLPI's own processor and requires nothing
 beginning `##` survives. A surviving tag is one GLPI would have printed to a
-customer.
+entity.
 
 `mail-check.js` drives the settings page, then renders a real ticket through
 GLPI's send path before and after applying: the "before" must be escaped (the bug

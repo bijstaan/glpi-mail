@@ -33,7 +33,7 @@ namespace GlpiPlugin\Glpimail;
  *
  * Nothing is escaped on the way in and nothing may contain markup — Shell
  * escapes at the point it builds markup, so a contributor that pre-escaped
- * would produce a visible `&amp;` in a customer's inbox.
+ * would produce a visible `&amp;` in an entity's inbox.
  *
  * The exception, and it is the whole point: `##tag##` is GLPI's notification
  * template syntax, and it passes through untouched. `##ticket.title##` is

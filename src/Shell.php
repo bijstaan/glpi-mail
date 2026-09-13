@@ -47,7 +47,7 @@ namespace GlpiPlugin\Glpimail;
  * a twentieth of one.
  *
  * The result renders the same in Word, in Gmail's stripped `<head>`, and in
- * whatever webmail a customer's finance department is still running.
+ * whatever webmail an entity's finance department is still running.
  *
  * ### The enhancement layer is now opt-in
  *
@@ -233,7 +233,7 @@ final class Shell
      *
      * Three states, from {@see Brand}, and the empty one is a real answer: a
      * strip of accent and nothing else, rather than the word "GLPI" in front
-     * of a customer who has never heard of it.
+     * of somebody who has never heard of it.
      */
     private function masthead(): string
     {

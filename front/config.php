@@ -187,7 +187,7 @@ if ($brand->branded) {
  * falls back to the literal string `GLPI` — see
  * {@see \NotificationTarget::getSubjectPrefix()}.
  *
- * So an instance can be fully whitelabelled and still send a customer
+ * So an instance can be fully whitelabelled and still send an entity
  * “[GLPI] Your ticket has been solved”, which is the first thing they read and
  * the only place the product name survives. It is worth a line here because
  * there is nothing on the whitelabel page that would tell you, and because the

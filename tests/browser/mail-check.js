@@ -60,7 +60,7 @@ const php = (code) =>
  * Not the plugin's renderer and not the settings page's preview — this is
  * `NotificationTemplate::getTemplateByLanguage()`, which is what
  * `NotificationEventMailing::send()` queues. Everything else in this file is
- * about the administrator's experience; this is about the customer's.
+ * about the administrator's experience; this is about the entity's.
  */
 const sent = (templateName, event) =>
   php(`

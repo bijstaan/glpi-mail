@@ -330,7 +330,7 @@ foreach ($catalog as $name => $entry) {
     // -------- no tag may have been case-mangled on its way through
 
     // GLPI substitutes with strtr(), which is case-sensitive, so `##TICKET.URL##`
-    // is not a tag — it is four words that will be printed to a customer. The
+    // is not a tag — it is four words that will be printed to an entity. The
     // text renderer upper-cases headings, and most headings in the catalog are
     // tags; this is the check that keeps those two facts apart.
     foreach (['html' => $html, 'text' => $text] as $part => $body) {

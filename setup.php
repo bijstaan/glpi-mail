@@ -48,7 +48,7 @@
  *
  * From glpi-whitelabel, never from GLPI, on exactly the terms glpi-pdf uses:
  * configured means its name and its logo; absent means neutral, no product name
- * at all; half-configured means whatever it has. A customer has not heard of
+ * at all; half-configured means whatever it has. An entity has not heard of
  * GLPI and an email that announces it reads as somebody else's system.
  */
 
